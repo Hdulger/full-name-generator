@@ -24,7 +24,7 @@ public class FullNameApplication {
         String fullName=name.trim()+" "+lastName.trim();
 
         if(middleName.length()>0){
-            fullName=name.trim()+" "+" "+middleName.trim().toUpperCase().charAt(0)+". "+lastName;
+            fullName=name.trim()+" "+" "+middleName.trim().toUpperCase().charAt(0)+". "+lastName.trim();
         }
 
         if (!suffix.isEmpty()){
