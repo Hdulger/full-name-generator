@@ -28,7 +28,7 @@ public class FullNameApplication {
         }
 
         if (!suffix.isEmpty()){
-            fullName+=", "+suffix.trim();
+            fullName+=", "+suffix.toUpperCase().trim();
         }
         System.out.println(fullName);
 
